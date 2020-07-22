@@ -17,54 +17,53 @@ main{
     padding: 5px;
     margin: 5px;
 }
-h1{
+
+.company{
+    text-decoration: none;
+}
+.heading1{
     font-size: 13px;
+    color: #000;
 }
 
-h2{
+.heading2{
     font-size: 24px;
+    color: #000;
 }
 
-li{
+.nav-item{
     margin: 5px 0;
   }
 
-ul{
+.nav-item-list{
     list-style-type: none;
 }
 
-a {
+.link {
     color: #69696a;
     text-decoration: none;
 }
 
-a:visited{
-    color: #69696a;
-    text-decoration: none;
-}
 
 p {
     color: #69696a;
     margin: 10px;
 }
 
-
-.btn1{
+.btn-link{
+    text-decoration: none;
     text-align: center;
     color: #FFF;
     background-color: #000;
-    width: 100%;
     border: none;
     border-radius: 20px;
+    display: block;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 
-.black{
-    color: #000;
-}
 
 .header{
     padding: 10px;
